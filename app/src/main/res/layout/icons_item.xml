@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp">
+
+<LinearLayout
+    android:id="@+id/iconCard"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/statusBar"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iconSrc"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/photo"/>
+
+    <TextView
+        android:id="@+id/iconName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Web Development"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/fonts"
+        />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
